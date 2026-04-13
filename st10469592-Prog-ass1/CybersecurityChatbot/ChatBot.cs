@@ -83,7 +83,7 @@ namespace CybersecurityChatbot
             // input check if they typed nothing
             if (string.IsNullOrWhiteSpace(userInput))
             {//start of if - empty input
-                return "I did not catch that. Please type something!Type 'exit' to quit at any time.";
+                return "I did not catch that. Please type something! Type 'exit' to quit at any time.";
             }//end of if
 
             string input = userInput.ToLower().Trim();

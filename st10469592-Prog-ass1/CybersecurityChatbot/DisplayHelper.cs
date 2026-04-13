@@ -16,9 +16,11 @@ namespace CybersecurityChatbot
         // property to hold the users name - updated from ChatBot after name is entered
         public string UserName { get; set; } = "YOU";
 
+       
 
         // method to show the image as ASCII art when the app starts
         public void ShowLogo()
+
         {//start of ShowLogo method
 
             try
